@@ -1,0 +1,200 @@
+% Metódy inžinierskej práce
+
+\documentclass[10pt,slovak,a4paper]{article}
+\usepackage[slovak]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+
+\usepackage{cite}
+%\usepackage{times}
+
+
+
+\title{Úloha počítačových hier a gamifikácie v študentskom učení
+\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2022/23, vedenie: MSc. Mirwais Ahmadzai}} % meno a priezvisko vyučujúceho na cvičeniach
+
+\author{Matej Brada\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xbrada@stuba.sk}}
+	}
+
+\date{\small 6. november 2022}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+BRADA, M.: Úloha počítačových hier a gamifikácie v študentskom učení
+\\\\
+U každého študenta je hra veľmi obľúbená. Počítačové hry sú súčasťou života každého mladého človeka a v dôsledku toho, sa hranie hier v učení študentov ukázalo ako účinný spôsob inšpirácie a motivácie študentov vzdelávať sa. (Salen, K.) Špeciálne gamifikácia, teda
+technika, ktorá využíva herné prvky, môže učenie študentov rôznych vekových kategóriách
+obohatiť. Práve preto som si vybral tému mojej práce Úloha počítačových hier a gamifikácie v študentskom učení. Nasmerovali ma k tomu články od autorov Katie Salen, Richard Blankman, Matej Held ktorí mi priblížili učenie založené na hrách. V práci sa zameriam na úlohu počítačových hrier a gamifikácie v učení študentov a na využívanie nástrojov gamifikácie – prvkov hier.
+\\\\
+	Kľúčové slová: Počitačová hra, gamifikácia, nástroje gamifikácie, vyžitie gamifikácie, vzdelávanie, škola. 
+
+\end{abstract}
+\newpage
+\renewcommand*\contentsname{Obsah}
+\maketitle
+\tableofcontents
+\newpage
+\section{Úvod}
+\noindent
+\hspace*{1.5em}
+Študenti počítačové hry obľubujú a sú súčasťou ich života. Práve preto som chcel prísť na to, či online hry, ktoré sú dnes neoddeliteľnou súčasťou študenta, vedia pomôcť v jeho učení sa. Zistil som, že v rámci učenia sa prostredníctvom počítačových hier, je gamifikácia ako technika účinným nástrojom. Autori ako Katie Salen, Richard Blantman, či Matej Held sa danou problematikou zaoberajú a priblížili mi učenie založené na hrách. \\
+
+\section{Počítačové hry a gamifikácia z pohľadu rôznych autorov} \label{ina}
+\noindent
+\hspace*{1.5em}
+Skôr ako začnem riešiť problematiku úlohy počítačových hier a gamifikácie v učení študentov a využívanie nástrojov gamifikácie – prvkov hier v učení študentov, je potrebné zadefinovať pojmy počítačová hra a gamifikácia. Danej problematike sa venovali viacerí autori. Napríklad Jirí Dostál v článku Výukový software a didaktické počítačové hry – nástroje moderního definuje didaktickú počítačovú hru ako „softvér umožňujúci zábavnou formou navodiť činnosti zamerané na rozvoj osobnosti jedinca.“ \cite{cite10}
+
+%\footnote[1]{\footnotesize DOSTÁL, J.: INSTRUCTIONAL SOFTWARE AND COMPUTER GAMES – TOOLS OF MODERN EDUCATION. In Journal of Technology and Information Education, 2009, roč. 1, č. 1, s. 27. [online]. [2022-010-26]. Dostupné na: <https://pdfs.semanticscholar.org/3d10/dc1263710474cf692e271807550ecac82e4b.pdf$\_$ga2.32792574.1730075480.1666703936-1705427111.1666703936=>.} 
+
+
+Teda počítačová hra, alebo inak povedané videohra majú, či už v dospievaní mladých ľudí, ale aj v živote človeka dôležitú úlohu. Hra je jedna veľká „záhada“, resp. problém, ktorý vyriešime prostredníctvom čiastkových úloh. Dané úlohy sú v ideálnom prípade stále viac a viac náročnejšie tak, aby hráča po celý čas zabávala a nefrustrovala. V hre je dôležitý problém, ktorý by mal obsahovať viacero riešení, simulovať, teda napodobňovať komplikované životné situácie, ktorým bude dieťa čeliť v dospelom živote.
+\cite{cite2}
+%\footnote[2]{  BOŽÍK, M.: Dovolil som deťom v škole hrať videohry. Pozrite, čo sa stalo. [online]. [2022-10-27]. Dostupné na: <https://dennikn.sk/blog/1692272/videohry-vo-vzdelavani/>.}\\
+
+
+\indent Podľa výskumu (Božík, 2012) až 60$\%$ hráčov herného žánru Multiplayer Online Role-Playing Game uviedlo, že práve hranie hier im zabezpečilo vyššiu úroveň cudzieho jazyka, nakoľko kyberpriestor je vo veľkej miere v anglickom jazyku a práve to je pridaná hodnota videohrier. \cite{cite2}
+
+%\footnote[3]{BOŽÍK, M.: Videohry v kontexte vyučovacieho procesu. [online]. [2022-10-27]. Dostupné na: < https://www.direktor.sk/sk/casopis/manazment-skoly-v-praxi/videohry-v-kontexte-vyucovacieho-procesu.m-237.html>.} 
+
+Je to spôsobené tým, že väčšina známych videohier je v anglickom jazyku. Ak je hra vystavaná tak, ako som uvádzal vyššie, čo znamená, že v nej riešime veľký problém, pozostávajúci z malých úloh, ktoré motivujú študenta k ich vyriešeniu, tak je nútení si anglické výrazy vyhľadávať a naučiť sa ich.\\
+\indent Aká je definícia gamifikácie? Aký je rozdiel medzi počítačovou hrou a gamifikáciou? Podľa Mateja Heldu „ide o využívanie herných mechaník v neherných oblastiach s cieľom odľahčiť určitú aktivitu a motivovať ľudí, aby sa do nej s nadšením pustili.“
+\cite{cite4}
+%\footnote[4]{HELD, M.: Hravosť vo vzdelávaní – gamifikácia. [online]. [2022-10-28]. Dostupné na: <https://vlcata.sk/hravost-vo-vzdelavani-gamifikacia/>.}  
+
+V praxi to znamená, že aplikujeme len herný dizajn a niektoré prvky hier do vzdelávacieho prostredia, čím je pre študentov výučba pútavejšia.
+\cite{cite5}
+%\footnote[5]{  BLANKMAN, R.: The Fun of Learning: Gamification in Education. [online]. [2022-10-28]. Dostupné na: <https://www.hmhco.com/blog/what-is-gamification-in-education>.}\\
+
+\indent Medzi takéto prvky môže patriť bodovanie, rôzne odznaky a podobne. Práve to môže byť pre študentov zaujímavejšie. Gamifikácia je výborným prostriedkom na budovanie motivácie, pomocou ktorej u študentov zvyšujeme záujem vo vyučovaní. V procese učenia sa, sa tým redukujú problémy spôsobené študentmi vo vyučovacom procese. \cite{cite5}
+
+%\footnote[6]{BLANKMAN, R.: The Fun of Learning: Gamification in Education. [online]. [2022-10-28]. Dostupné na: <https://www.hmhco.com/blog/what-is-gamification-in-education>.}\\
+
+
+\indent V reálnom živote a v rôznych aplikáciách sa tiež môžeme stretnúť s gamifikáciou. 
+\begin{itemize}
+\item 	Waze – navigačná aplikácia 
+\item	Duolingo – učenie 
+\item	Runkeeper – športová 
+\item LinkedIn – sociálna sieť 
+\cite{cite6}
+%\footnote[7]{URBANOVÁ, E.: Čo je to gamifikácia a oplatí sa ju použiť? . [online]. [2022-10-29]. Dostupné na: <https://www.e-learnmedia.sk/blog/co-je-to-gamifikacia-a-oplati-sa-ju-pouzit/ >.}
+
+
+\end{itemize} 
+\noindent
+\hspace*{1.5em}
+ Ako uvádzam, problematike počítačových hier a gamifikácii sa venujú viacerí autori. Výskumy ukazujú, že či už počítačová hra, alebo gamifikácia môže v prípade správneho použitia výrazne obohatiť študentov tak v reálnom živote ako aj v študentskom učení. Práve preto si myslím, že úloha či už počítačových hier, alebo gamifikácie je dôležitá pre pri učení študentov.
+
+
+
+
+\section{Počítačové hry a ich úloha v študentskom učení } 
+\label{dolezita} 
+\noindent
+\hspace*{1.5em}
+Podľa J. Dostála „hra prostredníctvom počítača je činnosť jedinca, ktorá má podstatu vo virtuálnom prostredí simulovanom počítačom a primárne spočíva v rozvoji osobnosti, pričom podľa svojho zamerania môže poskytovať zábavu, odreagovanie a relaxáciu.
+\cite{cite12}
+%\footnote[8]{DOSTÁL, J.: INSTRUCTIONAL SOFTWARE AND COMPUTER GAMES – TOOLS OF MODERN EDUCATION. In Journal of Technology and Information Education, 2009, roč. 1, č. 1, s. 27. [online]. [2022-010-26]. Dostupné na: <https://pdfs.semanticscholar.org/3d10/dc1263710474cf692e271807550ecac82e4b.pdf?$\_$ga=2.32792574.1730075480.1666703936-1705427111.1666703936>.} \\
+
+
+ \indent Ak sa študent bude pravidelne pohybovať v prostredí počítačovej hry, kde aktívne využíva napr. anglický jazyk úroveň sa bude automaticky zvyšovať. Okrem toho nám počítačová hra dáva spätnú väzbu či sme uspeli, alebo nie a tým nás núti sa neustále zlepšovať a v prípade zlyhania, ktoré je oddeliteľnou súčasťou hry, opakovať hru a tým sa zlepšiť.
+ \cite{cite14}
+ %\footnote[9]{SALEN-TEKINBAS, K.: What is Game-Based Learning? . [online]. [2022-10-29]. Dostupné na: <https://www.q2l.org/about/>.}\\
+
+ 
+ \indent Videohry môžu študentov vzdelávať v rôznych oblastiach, ako napríklad dejepis, geografia, matematika, jazyky a v mnohých ďalších. Študenti sa prostredníctvom hry napríklad prenesú do konkrétneho historického obdobia, kde si vyskúšajú určité role (poddaný, vodca...).\\
+\indent V súčasnosti existuje niekoľko hier, ktoré podporujú vzdelávanie v dejepise, matematike, angličtine a pod. Jendou z nich je Assasin Creed. Assasin Creed  je historická hra, ktorej autor vydal viacero verzií. V súčasnosti sú najznámejšie tri, ktoré sa odohrávajú v Taliansku, Grécku a Egypte. Z definície historická hra, vychádza, že tvorca hry sa inšpiroval históriou miest, a tým sa študenti učia, ako to v daných historických mestách vyzerá, ako tam ľudia žijú a pod. Ak študent, ktorý Assasin Creed, podvedome vníma celé okolie, a tým pádom na hodine dejepisu sa mu vybavia, či už názvy miest, alebo znaky z daných období. \\
+\indent Z daného jasne vyplýva, že úloha počítačových hier je určite dôležitá u študentov, či už z hľadiska vnútornej motivácie, intelektuálneho rozvoja, rozvoj kritického myslenia, pozornosti, riešenia problémov, ako aj rozvoj pamäte.\\
+\indent Dokazuje to aj zaujímavý výskum, ktorý robili v Austrálii a zúčastnilo sa ho viac ako 12 000 študentov stredných škôl. Zistili, že študenti, ktorí periodicky hrali videohry, mali vyššie skóre z matematiky, prírodných vied a čítania, ako tí študenti, ktorí online videohry nehrali.
+\cite{cite7}
+%\footnote[10]{WIDMER, B.: Students Who Play Online Games Perform Better At School, Research Finds. [online]. [2022-10-30]. Dostupné na: < https://www.lifehack.org/451774/students-who-play-online-games-perform-better-at-school-research-finds>.} \\
+
+
+\indent „Študenti, ktorí hrajú online hry takmer každý deň, dosahujú 15 bodov nad priemerom v matematike a 17 bodov nad priemerom vo vede, hovorí ekonóm Alberto Posso z RMIT University v Melbourne.“
+\cite{cite7}
+%\footnote[11]{WIDMER, B.: Students Who Play Online Games Perform Better At School, Research Finds. [online]. [2022-10-30]. Dostupné na: < https://www.lifehack.org/451774/students-who-play-online-games-perform-better-at-school-research-finds>.}\\
+
+\indent Keď študent hrá hru, ktorá spĺňa kritéria uvedené v prvej kapitole, čo znamená, že v nej rieši veľký problém, pozostávajúci z malých úloh, aby sme sa posunuli na ďalšiu úroveň. To zahŕňa použitie niektorých všeobecných vedomostí a zručností z matematiky, prírodných vied, histórie, ktoré ste nadobudli. \\
+\indent Pozoruhodné však je, že vedci si nie sú istí, prečo študenti, ktorí hrajú online videohry, dostávajú lepšie hodnotenie. Jeden z dôvodov môže byť to, že študenti, ktorí hrajú počítačové hry, lepšie prepájajú nadobudnuté poznatky a zároveň ich dennodenne využívajú, práve pri hraní online hier. \\ 	
+\indent Posso a psycholog Peter Etchells sa vyjadrili, že danú oblasť je potrebné preskúmať a zrealizovať podrobnejší výskum. Dokonca niektoré pokusné výskumy potvrdzujú, že hranie počítačových hier podporuje schopnosť učenia sa, zlepšuje pamäť, motorické zručnosti a je možné ich použiť na zotavenie sa po poranení mozgu.
+\cite{cite7}
+%\footnote[12]{  WIDMER, B.: Students Who Play Online Games Perform Better At School, Research Finds. [online]. [2022-10-30]. Dostupné na: < https://www.lifehack.org/451774/students-who-play-online-games-perform-better-at-school-research-finds>.}  
+
+Všetko je to vo vývoji a je potrebný podrobnejší výskum. \\
+	\indent Podľa vlastnej skúsenosti viem, že hraním online hier, som sa výrazne zlepšil v anglickom jazyku. Hra bola postavená, tak, že som musel splniť určité misie. Daná hra bola v anglickom jazyku, ako väčšina dnešných známych hier, čiže som si musel viaceré názvy a frázy prekladať. Neskôr som sa ich naučil, pretože ak som chcel úspešne a rýchlo splniť misiu v hre, nechcel som sa zdržovať opätovným vyhľadávaním anglických výrazov. Následne som v škole na hodine angličtiny videl, že sa mi obohatila slovná zásoba dôsledkom hrania počítačových hier v anglickom jazyku. 
+
+
+
+
+
+
+
+
+\section{Gamifikácia a jej úloha v študentskom učení }
+\label{dolezitejsia} 
+\noindent
+\hspace*{1.5em}
+Ako je už v prvej kapitole uvedené, pri gamifikácii „ide o využívanie herných mechaník v neherných oblastiach s cieľom odľahčiť určitú aktivitu a motivovať ľudí, aby sa do nej s nadšením pustili.“  Dôležité je si uvedomiť, že tak ako pri počítačových hrách aj pri gamifikácii musíme študentov správne namotivovať, a to prostredníctvom nástrojov gamifikácie.\\ 
+\indent Medzi nástroje gamifikácie zaraďujeme mechanizmy a prvky hier. Procesu hry napomáhajú nasledujúce herné prvky:
+\begin{itemize}
+\item „pútavý príbeh,
+\item vizualizácia – vzbudenie pozornosti
+\item rozdelenie úloh na menšie úlohy
+\item okamžitá spätná väzba
+\item 	rôzne nezávislé poslania, ktoré nesúvisia s hlavným príbehom, ale ich splnenie navyšuje body hráča
+\item 	body, odznaky, rebríček výsledkov – je veľmi dôležité, aby študenti mohli svoje výsledky navzájom porovnať
+\item úrovne – ich splnenia poukazuj ich splnenia poukazujú na stupeň rozvoja, a spätná väzba napomáha k úspešnému zvládnutiu učiva. K úspechu metódy gamifikácie je nevyhnutné, aby boli prítomné mechanizmy hry.“
+\cite{cite8}
+%\footnote[14]{  MEZEIOVÁ, A.: Gamifikácia ako nástroj vzdelávania 21. storočia = Gamification as a tool for education of the 21st century. In: LÖSTER, T., LANGHAMROVÁ, J., VRABCOVÁ, J. (eds.): RELIK 2018 = reproduction of human capital - mutual links and connections : the 11th international scientific conference: the 11th international scientific conference, Praha : Oeconomica Publishing House, 2018, s. 274.}  
+
+\end{itemize}
+\noindent
+\hspace*{1.5em} Práve vďaka vyššie spomenutým herným prvkom predídeme nude, ak by bola úroveň veľmi nízka alebo frustrácii, ak by úroveň bola nastavená veľmi vysoko. Akonáhle študenti prestanú úlohy v učení vnímať ako nutnosť (povinnosť), bude im to čo robia dávať zmysel, budú sa môcť posúvať vpred. To všetko prispeje k tomu, že študentov bude učenie baviť, a práve to je úlohou gamifikácie v študentskom učení.\\
+\indent V súčasnosti gamifikáciu využívajú učitelia pri učení študentov, ale hlavne študenti pri učení sa, napríklad prostredníctvom rôznych aplikácií, či kvízov a súťaží na vysokej škole.\\
+\indent Ako prvé uvediem aplikácie a hry, ktoré sú určené priamo na vzdelávanie, ale majú prvky gamifikácie v podobe získavania bodov, odznakov, posúvania sa na vyšší level a pod.
+\begin{enumerate}
+\item 	Math 180 – v rámci daného programu je množstvo možností, ako sa vzdelávať z matematiky. Poskytuje prispôsobený zoznam hier, vďaka ktorým je matematika zábavná a zároveň rozvíja výpočtovú a strategickú plynulosť študentov.
+\cite{cite13}
+%\footnote[15]{HMH MATH 180®. [online]. [2022-10-30]. Dostupné na: < https://www.hmhco.com/programs/math-180>.} 
+
+\item 	MinecraftEdu – dokonca tvorcovia hry Minecraft, vytvorili MinecraftEdu, kde sa študenti vzdelávajú v oblasti architektúry. 
+Druhou možnosťou ako využiť gamifikáciu, je pri učení študentov, či už na prednáškach alebo seminároch.
+\item Vytvorenie avatarov – mnoho študentov hrá hry, ktoré umožňujú hráčovi vytvárať postavy (alter-ego), ktoré si môžu prispôsobiť a stavať na nich. Môžu ich upravovať podľa toho aké úlohy splnili. Každá ďalšia úroveň poskytuje väčšie množstvo výhod pre avatara. Taktiež môžeme rozvíjať rôzne zručnosti avatarov, z ktorých sa postupne stanú inžinieri, lekári a pod. \cite{cite1}
+%\footnote[16]{  BLANKMAN, R.: The Fun of Learning: Gamification in Education. [online]. [2022-10-28]. Dostupné na: <https://www.hmhco.com/blog/what-is-gamification-in-education>.} 
+\item	Odznaky a ocenenia – ide o rozdávania odznakov, prípadne ocenení, za splnenie úlohy. Úlohy by opäť mali byť stále viac náročné, ako pri online hrách, aby to študentov motivovalo a posúvalo ďalej. 
+\item	Súťažné úlohy – súťaženie je výbornou formou, pretože pre študenta, ale aj celkovo človeka, je pocit víťazstva uspokojujúci. Tým pádom ich to núti premýšľať a zdolávať prekážky a vyriešiť problém. 
+Tretie využitie gamifikácie je veľmi časté. Využívajú ho predovšetkým študenti vysokých škôl na internátoch. Uskutočňujú rôzne kvízy, či už z oblasti matematiky, histórie, geografie a pod., a tým pádom sú tu využité prvky gamifikácie ako získavanie bodov , rebríček výsledkov, plnenie úloh, spätná väzba a mnoho ďalších. 
+
+\end{enumerate}
+
+
+
+
+
+
+\section{Záver} 
+\label{zaver} 
+V práci som sa zameral predovšetkým na vysvetlenie úloh počítačových hier v študentskom učení a gamifikácie. Uviedol som ich prínos a využitie v živote študenta. Opísal som kritéria a prvky, ktoré by počítačové hry a gamifikácia mali spĺňať, aby mali zmysel a hodnotu v učení študentov. Zistil som, že online hry a gamifikácia ozvláštňujú učenie sa, je pútavejšie, zaujímavejšie, zábavnejšie a podporuje prepájanie nadobudnutých vedomostí. Keď študenti prestanú vnímať pri učení sa jednotlivé úlohy ako nudné a frustrujúce, budú sa posúvať vpred. To všetko prispeje k tomu, že študentov bude učenie baviť, a práve to je úlohou gamifikácie v študentskom učení. 
+Počas písania článku, som taktiež zistil, že je potrebné vykonať podrobnejší výskum, o tom, ako dokážu počítačové hry pomôcť študentom v učení sa. Zároveň otvorenou otázkou ostáva, prečo študenti, ktorí hrajú vo vyššej miere počítačové hry, dosahujú lepšie výsledky v škole. 
+
+
+
+
+%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
+
+
+% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+\newpage
+\bibliography{literatura}
+\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\end{document}
